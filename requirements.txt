@@ -2,11 +2,10 @@
 torch>=2.5.0
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# FastAPI and server (without [standard] extras)
+# FastAPI and server (no [standard] extras)
 fastapi==0.104.1
 uvicorn==0.24.0
 pydantic==2.5.0
-python-multipart==0.0.6
 
 # Core dependencies
 numpy>=1.24.0
