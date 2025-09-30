@@ -1,12 +1,12 @@
-# PyTorch CPU version (smaller, faster install for deployment)
+# PyTorch CPU version
 torch>=2.5.0
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# FastAPI and server
+# FastAPI and server (without [standard] extras)
 fastapi==0.104.1
-uvicorn[standard]==0.24.0
+uvicorn==0.24.0
 pydantic==2.5.0
 python-multipart==0.0.6
 
-# Core dependencies (only what G2P needs)
+# Core dependencies
 numpy>=1.24.0
